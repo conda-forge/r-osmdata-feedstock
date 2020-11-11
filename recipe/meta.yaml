@@ -1,4 +1,4 @@
-{% set version = '0.1.3' %}
+{% set version = "0.1.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/osmdata_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/osmdata/osmdata_{{ version }}.tar.gz
-  sha256: 98dd9520e52bab445af22288d3f1c9b12c5acf081b9e40410171ea23d173a7a8
+  sha256: f59ca3bbb0a8d0b9c9e2e323057625f5de0cb800f183e6f33119f18196472d05
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -64,12 +64,10 @@ test:
 about:
   home: https://docs.ropensci.org/osmdata (website) https://github.com/ropensci/osmdata (devel)
   license: GPL-3
-  summary: Download and import of 'OpenStreetMap' ('OSM') data as 'sf' or 'sp' objects.  'OSM'
-    data are extracted from the 'Overpass' web server and processed with very fast 'C++'
-    routines for return to 'R'.
+  summary: Download and import of 'OpenStreetMap' ('OSM') data as 'sf' or 'sp' objects.  'OSM' data are extracted from the 'Overpass' web server and processed with very fast 'C++' routines for return to 'R'.
   license_family: GPL3
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
