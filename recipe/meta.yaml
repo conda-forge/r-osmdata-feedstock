@@ -63,7 +63,7 @@ test:
 
 about:
   home: https://docs.ropensci.org/osmdata (website) https://github.com/ropensci/osmdata (devel)
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Download and import of 'OpenStreetMap' ('OSM') data as 'sf' or 'sp' objects.  'OSM' data are extracted from the 'Overpass' web server and processed with very fast 'C++' routines for return to 'R'.
   license_family: GPL3
   license_file:
