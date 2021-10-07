@@ -1,4 +1,4 @@
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/osmdata_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/osmdata/osmdata_{{ version }}.tar.gz
-  sha256: 03ba113e6d7585854ed61df4a10a67af212accc80559b510bcd0dea906562ffe
+  sha256: 1ae3d2a22353fe01bed6a360d15500a7daab61ed1523962907ef14ade9f4e975
 
 build:
   merge_build_host: true  # [win]
