@@ -35,8 +35,7 @@ requirements:
     - r-base
     - r-rcpp >=0.12.4
     - r-curl
-    - r-httr
-    - r-jsonlite
+    - r-httr2
     - r-lubridate
     - r-magrittr
     - r-reproj
@@ -49,8 +48,7 @@ requirements:
     - {{ native }}gcc-libs         # [win]
     - r-rcpp >=0.12.4
     - r-curl
-    - r-httr
-    - r-jsonlite
+    - r-httr2
     - r-lubridate
     - r-magrittr
     - r-reproj
