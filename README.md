@@ -3,6 +3,7 @@ About r-osmdata-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-osmdata-feedstock/blob/main/LICENSE.txt)
 
+
 About r-osmdata
 ---------------
 
@@ -11,6 +12,7 @@ Home: https://docs.ropensci.org/osmdata (website) https://github.com/ropensci/os
 Package license: GPL-3.0-only
 
 Summary: Download and import of 'OpenStreetMap' ('OSM') data as 'sf' or 'sp' objects.  'OSM' data are extracted from the 'Overpass' web server and processed with very fast 'C++' routines for return to 'R'.
+
 About r-osmdata
 ---------------
 
