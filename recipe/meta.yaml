@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/osmdata_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/osmdata/osmdata_{{ version }}.tar.gz
-  sha256: 26cbe70d7f1c5940f32fa4b9ac8fdbe6f5cf640abb1d11df7e1931e27fecf515
+  sha256: 8a2a298d17df555d106626fd9ec78088824d50b2f1cbd51e7a21374b8a1b7c35
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
